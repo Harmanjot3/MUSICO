@@ -211,7 +211,7 @@ def play_music():
             statusbar['text'] = "Playing music" + ' - ' + os.path.basename(play_it)
             show_details(play_it)
         except:
-            tkinter.messagebox.showerror('File not found', 'Melody could not find the file. Please check again.')
+            tkinter.messagebox.showerror('File not found', 'Musico could not find the file. Please check again.')
 
 
 def stop_music():
